@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtek3xu3ub2gs"]
+
+[ext_resource type="Script" uid="uid://cglwfny8hommo" path="res://scripts/AStar.gd" id="1_l20p6"]
+[ext_resource type="PackedScene" uid="uid://b13uncrew42fa" path="res://scenes/map.tscn" id="2_vephn"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_l20p6")
+
+[node name="Map" parent="." instance=ExtResource("2_vephn")]
